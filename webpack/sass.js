@@ -4,7 +4,7 @@ module.exports = function () {
             rules: [
                 {
                     test: /\.scss$/,
-                    include: paths,
+                    include: this.paths,
                     use: [
                         'style-loader',
                         'css-loader',
